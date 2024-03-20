@@ -5,6 +5,8 @@ coverY: 0
 
 # UAF - Use After Free
 
+### What is it?
+
 [User after free](https://learn.snyk.io/lesson/use-after-free/) vulnerabilities are pretty much just a security risk that involves using memory after it has been freed. For example, using the result of a `malloc` call after it has been freed using function calls such as `free()` .
 
 ### Why is this a security risk?

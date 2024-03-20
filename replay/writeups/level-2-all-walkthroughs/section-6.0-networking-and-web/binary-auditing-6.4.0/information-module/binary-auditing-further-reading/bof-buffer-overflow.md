@@ -5,6 +5,8 @@ coverY: 0
 
 # BOF - Buffer Overflow
 
+### What is it?
+
 Buffer overflows are known as one of the more common types of binary vulnerabilities- as even with modern compiler protections, it is still relatively easy to make a mistake especially when operating with specific and more complex/intricate data types!
 
 ### Why is this a security risk?
