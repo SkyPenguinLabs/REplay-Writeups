@@ -33,3 +33,77 @@ Primarily: Unlike BOF, this is not going to directly be immediately exploitable.
 
 Ensure that you write some form of function that will take an arithmetic operation as an input and will also then handle the result of that operation by properly storing the values and checking to see if the integer result is too large or too small. Considering that REplay uses C++, I provided a good example for you below.
 
+```cpp
+#include <iostream>
+
+// not super secure, like god himself but it does the job it needs to
+/*
+    Use -> SecureExecOperation(
+                <-[in].char operation
+                <-[in].int Left
+                <-[in].int Right
+                <-[out].int result
+           )
+
+   Example:
+        int arith_res;
+        if (SecureExecOperation('+', 10, 20, arith_res)) {
+            std::cout << arith_res << std::endl;
+        } 
+
+    Improvements:
+        You can make many improvements and go down the list of values
+        and eventually develop a framework that ensures for any user-influenced
+        calculation, that the value being handled actually gets checked and the 
+        result is properly stored. 
+*/
+bool SecureExecOperation(char operation, int op1, int op2, int& res) {
+    switch (operation) {
+    case '+':
+        if ((op2 > 0 && op1 > std::numeric_limits<int>::max() - op2) ||
+            (op2 < 0 && op1 < std::numeric_limits<int>::min() - op2)) {
+            std::cerr << "[!] WARN: Overflow (ret->false)" << std::endl;
+            return false;
+        }
+        res = op1 + op2;
+        break;
+    case '-':
+        if ((op2 < 0 && op1 > std::numeric_limits<int>::max() + op2) ||
+            (op2 > 0 && op1 < std::numeric_limits<int>::min() + op2)) {
+            std::cerr << "[!] WARN: Underflow (ret->false)" << std::endl;
+            return false;
+        }
+        res = op1 - op2;
+        break;
+    case '*':
+        if (op1 > 0 && op2 > 0 && op1 > std::numeric_limits<int>::max() / op2) {
+            std::cerr << "[!] WARN: Overflow (ret->false)" << std::endl;
+            return false;
+        }
+        //-[There is a LOT more that can be done here, especially for multiplication operations
+        res = op1 * op2;
+        break;
+    case '/':
+        // A very common issue in general
+        if (op2 == 0) {
+            //-[Division by zero
+            std::cerr << "[!] WARN: Divide by 0 (ret->false)" << std::endl;
+            return false;
+        }
+        res = op1 / op2;
+        break;
+    default:
+        std::cerr << "[!] Err: Invalid operation" << std::endl;
+        return false;
+    }
+    return true;
+}
+
+int main() {
+    int arith_res;
+    if (SecureExecOperation('+', 10, 20, arith_res)) {
+        std::cout << arith_res << std::endl;
+    }
+}
+```
+
