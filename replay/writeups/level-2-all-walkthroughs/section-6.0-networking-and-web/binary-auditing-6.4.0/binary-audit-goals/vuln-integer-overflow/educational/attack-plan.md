@@ -6,7 +6,7 @@ coverY: 0
 
 # Attack Plan
 
-### How we are going to approach this.
+### How we are going to approach this?
 
 Our goal is to find some form of integer overflow- thankfully, this is a game cheat and game cheat GUIs are ALLLL about numbers. Seriously- just check out this GUI, everything is a number.
 

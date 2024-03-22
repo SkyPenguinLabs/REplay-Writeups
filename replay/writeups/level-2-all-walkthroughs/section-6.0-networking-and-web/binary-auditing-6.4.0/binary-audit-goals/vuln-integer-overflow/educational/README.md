@@ -1,5 +1,7 @@
 ---
-description: A page and module to give all the information you need on Integer Overflows
+description: >-
+  A page and module to give all the information you need on finding Integer
+  Overflows
 cover: ../../../../../../../../.gitbook/assets/image.avif
 coverY: 0
 layout:
