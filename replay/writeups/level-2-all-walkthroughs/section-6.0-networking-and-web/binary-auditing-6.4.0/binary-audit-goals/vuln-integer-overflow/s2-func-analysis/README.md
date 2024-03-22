@@ -6,6 +6,16 @@ coverY: 0
 
 # S2: Func Analysis
 
+
+
+
+
+
+
+
+
+
+
 As explained in the previous step, [s1-input-analysis](../s1-input-analysis/ "mention"), I assume you already know how to get to the function input using methods that are quite simple (designed like that for ease of access to the routine). With that, you should be in the same area.
 
 <figure><img src="../../../../../../../../.gitbook/assets/FirstShotLocation_Input_REplay_log.png" alt=""><figcaption></figcaption></figure>
@@ -15,7 +25,7 @@ As explained in the previous step, [s1-input-analysis](../s1-input-analysis/ "me
 This routine and actually entire area is kinda funky to read. So we are going to go and translate this to Pseudocode. If you are not used to this, despite us doing this once- simply follow the steps below.
 
 * Go to `View` in the top bar of the window
-* Open Subviews>Generate Pseudocode&#x20;
+* Open `Subviews>Generate Pseudocode`&#x20;
 
 or you can use F5.
 
@@ -37,7 +47,7 @@ Think of GUIs as one giant while true loop. Code is constantly executing and the
 
 For that, we are going to be analyzing the pseudocode shown below.
 
-<figure><img src="../../../../../../../../.gitbook/assets/Pseudocode.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../../.gitbook/assets/PseudoCodeA_ExportHTML.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 In IDA, pseudocode can become a pain to work with! So, if you really want to focus on the code itself and analyze it, right click on the pseudocode dump and then click on the button that lets you generate an HTML document as said 'generate HTML'. This will produce a syntax highlighted HTML file.&#x20;
@@ -46,8 +56,38 @@ In IDA, pseudocode can become a pain to work with! So, if you really want to foc
 If you want to copy and paste it, then here is the pseudocode so you can break it down yourself. Personally, I always use an editor inside of a code note to do the documentation as you will see later.
 
 ```cpp
+if ( !(unsigned __int8)sub_14005C4B0("Press to get player data", &v196) )
+    {
+LABEL_97:
+      // hidden for this section 
+LABEL_101:
+      // hidden for this section
+    }
+    sub_140036C40(qword_140159B80);    
 
-
+sub_14005BB10("Checking username -- ");
+    ((void (*)(void))sub_140036CE0)();
+    v49 = 0;
+    if ( byte_140158DC0[0] )
+    {
+      do
+        ++v49;
+      while ( byte_140158DC0[v49] );
+    }
+    v50 = 0;
+    if ( v49 <= 0 )
+    {
+LABEL_88:
+      v51 = -1;
+    }
+    else
+    {
+      while ( byte_140158DC0[v50] != 65 )
+      {
+        if ( ++v50 >= v49 )
+          goto LABEL_88;
+      }
+      v51 = v50 + v49 + 65;
 ```
 
 Now that we have our range, we need to analyze that range, and dig deeper! Lets go down the rabbit hole Allice!&#x20;
