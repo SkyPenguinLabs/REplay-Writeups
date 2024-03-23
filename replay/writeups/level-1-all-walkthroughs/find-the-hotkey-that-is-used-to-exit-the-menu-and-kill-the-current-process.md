@@ -23,4 +23,4 @@ The answer to this is the `Tab` key. This as a virtual key code is `VK_TAB` whic
 
 ### Extra Verification
 
-Your first question, if you never got the answer is `How did I know that this was a exit function?` well, check out [exit-hotkey-function-verification.md](../../replay-extras/gui-things/exit-hotkey-function-verification.md "mention")on how to verify the functions
+Your first question, if you never got the answer is `How did I know that this was a exit function?` well, check out [exit-hotkey-function-verification.md](../../replay-extras/gui-things/educational/exit-hotkey-function-verification.md "mention")on how to verify the functions
