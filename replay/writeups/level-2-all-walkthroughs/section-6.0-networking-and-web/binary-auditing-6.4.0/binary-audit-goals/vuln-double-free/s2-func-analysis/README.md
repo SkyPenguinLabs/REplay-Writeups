@@ -33,7 +33,7 @@ As you can see, just by looking at the analysis we see thatg rbx is actually use
 
 ### Analyzing top to bottom
 
-{% content-ref url="top-to-bottom-analysis.md" %}
-[top-to-bottom-analysis.md](top-to-bottom-analysis.md)
+{% content-ref url="top-to-bottom-analysis/" %}
+[top-to-bottom-analysis](top-to-bottom-analysis/)
 {% endcontent-ref %}
 
