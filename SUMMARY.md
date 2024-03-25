@@ -10,6 +10,7 @@
   * [Who maintains it?](introduction/faq-frequently-asked-questions/who-maintains-it.md)
   * [What does this target technically?](introduction/faq-frequently-asked-questions/what-does-this-target-technically.md)
   * [How does this help me in the real world?](introduction/faq-frequently-asked-questions/how-does-this-help-me-in-the-real-world.md)
+  * [How many writeups are here?](introduction/faq-frequently-asked-questions/how-many-writeups-are-here.md)
 
 ## REplay
 
