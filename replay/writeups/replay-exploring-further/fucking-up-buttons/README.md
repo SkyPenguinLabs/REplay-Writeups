@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/TheWorldIsYours.png
+cover: ../../../../.gitbook/assets/TheWorldIsYours.png
 coverY: 0
 ---
 
@@ -11,7 +11,11 @@ Within REplay existed many different Graphical User Interface Widgets (GUI widge
 
 In order to fuck up the buttons, we want to invert the functionality- lets say they click the aimbot button and it actually goes to ESP- or maybe we can mess with some of the text and inject our own sequences into it! All of this can be done with a simple binary patch. For this example, we are going to be using Level 1 which can be downloaded from the page linked below.
 
-{% content-ref url="../../levels/level-1-3-download.md" %}
-[level-1-3-download.md](../../levels/level-1-3-download.md)
+{% content-ref url="../../../levels/level-1-3-download.md" %}
+[level-1-3-download.md](../../../levels/level-1-3-download.md)
 {% endcontent-ref %}
+
+### Important note
+
+I want to note that the way I go about doing this is super weird, but the reason for the weirdness is a creative way to get around specific issues. For this, we will be using IDA-Pro in the first half and the second half we will be going through Ghidra. So make sure you have Ghidra setup prior as we will not be going through that.
 
