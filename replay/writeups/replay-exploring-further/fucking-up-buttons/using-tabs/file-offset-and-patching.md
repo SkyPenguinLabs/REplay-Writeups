@@ -58,5 +58,22 @@ When we hit 'ok' we get brought to the following screen.
 
 <figure><img src="../../../../../.gitbook/assets/GhidraWindow1.png" alt=""><figcaption></figcaption></figure>
 
-In the line you were brought to- press the keybind : `Ctrl+Shift+G` and that will bring you to the system that allows you to edit the line .
+In the line you were brought to- press the keybind : <mark style="color:red;">`Ctrl+Shift+G`</mark> and that will bring you to the system that allows you to edit the line. When you are done making edits (_in my case, move `0x02` to `0x01`_), hit enter and then press '<mark style="color:red;">O</mark>' on your keyboard _(capital or not, does not matter_) and this window will pop up.
 
+<figure><img src="../../../../../.gitbook/assets/GhidraFile.png" alt=""><figcaption></figcaption></figure>
+
+Of course, you want to make sure you switch the file '_Format_' to '_Original File_' so Ghidra can auto write the changes to the file.
+
+{% hint style="danger" %}
+PLEASE MAKE A BACKUP! This is good practice and so many people make changes they want to revert but never make saves, backups, or anything!
+{% endhint %}
+
+## Results
+
+If you spent the time to make the changes and save the file properly-  re-executing the file will result in the Aimbot tab when clicked rendering the same tab as the 'Visuals' button.
+
+### REason
+
+The reason this happened was because switching the conditions by telling both conditions to switch the tab value to 1 will just end in the same route of execution as the other button.&#x20;
+
+&#x20;&#x20;
