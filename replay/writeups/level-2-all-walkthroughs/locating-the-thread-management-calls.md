@@ -49,7 +49,7 @@ Well, ideally, this means that the code is calling itself within itself? Like a 
 
 If you spent some time reverse engineering Lambdas in C++ or C, then you might be familiar with this. Lets list XREFs one last time to see what happens.
 
-<figure><img src="../../../.gitbook/assets/Offset.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Offset (1).png" alt=""><figcaption></figcaption></figure>
 
 This to most reverse engineers that are new to RE would be trivial- like how does this work? Why are we getting pointed to RDATA? Well, if this is a lambda (which it is on the backend) then most likely, the call is going to be reserved and its going to be loaded via offset using instructions such as Load Effective Address or simply `lea` instructions. When we click on this XREF we get this block of code.
 
