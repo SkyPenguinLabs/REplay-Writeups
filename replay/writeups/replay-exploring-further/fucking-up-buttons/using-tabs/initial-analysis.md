@@ -81,4 +81,24 @@ An example of the check is the value of `dword_140156D58` which has been renamed
 
 <figure><img src="../../../../../.gitbook/assets/ExecLoop.png" alt=""><figcaption></figcaption></figure>
 
-As you can see here, the comparison and the result is pretty obvious here.
+As you can see here, the comparison and the result is pretty obvious here. The program is actually going to render this information once the variable that we suspect is 1. The same thing happens in various other rendering blocks where the DWORD - `dword_140156D58` is set to the designated number but it executes different rendering code.&#x20;
+
+Ideally, the code should look something like this internally.
+
+```
+{
+ if (Button("?"), "pressed") {
+    Settings_Tab = 1;
+ }
+}
+
+{
+    if (Settings_Tab == 2) {
+            // rendering code
+    }
+    if (Settings_Tab == 3) {
+            // rendering code
+    }
+}
+```
+
