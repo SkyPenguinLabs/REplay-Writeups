@@ -25,4 +25,4 @@ This is a game cheat, but after development, a copy of the source was made, driv
 
 # There are a ton of writeups here!
 
-![SkyPenguinCTFBanner.PNG](Obsid.PNG)
+![SkyPenguinCTFBanner.png](Writeup_blob)
