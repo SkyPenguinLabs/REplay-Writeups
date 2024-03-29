@@ -22,7 +22,7 @@ When we solve this task, we should have successfully changed all beeps in the me
 
 ## Steps To Execution
 
-Before we move on, make sure that you download level 2. You can find this level hyperlinked in [level-1-3-download.md](../../../levels/level-1-3-download.md "mention") which stores all levels and their executable links.
+Before we move on, make sure that you download level 2. You can find this level hyperlinked in [level-1-3-download](../../../levels/level-1-3-download/ "mention") which stores all levels and their executable links.
 
 When you redownload the CTF and make sure you have everything setup, you can now follow the steps below.
 

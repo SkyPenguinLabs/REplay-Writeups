@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/TheWorldIsYours.png
+cover: ../../../.gitbook/assets/TheWorldIsYours.png
 coverY: 0
 ---
 

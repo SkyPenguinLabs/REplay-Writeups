@@ -18,7 +18,7 @@ The finding was XSS as indicated with no extra sanitization functions used and n
 In order to trigger this attack- we can just create the most basic XSS payload known to man and execute it in the adminID field.
 
 ```javascript
-adminID     =    <script>alert(1)</script> // a dumb and basic script kiddie payload
+adminID     =    <script>alert(1)</script> // base XSS payload
 ```
 
 <figure><img src="../../../../../.gitbook/assets/WebUiXSS.png" alt=""><figcaption></figcaption></figure>

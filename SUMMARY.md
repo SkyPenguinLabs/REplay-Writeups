@@ -15,7 +15,8 @@
 ## REplay
 
 * [Levels](replay/levels/README.md)
-  * [Level 1-3 DOWNLOAD](replay/levels/level-1-3-download.md)
+  * [Level 1-3 DOWNLOAD](replay/levels/level-1-3-download/README.md)
+    * [Level 2 - What I Should Have](replay/levels/level-1-3-download/level-2-what-i-should-have.md)
   * [Level 1](replay/levels/level-1.md)
   * [Level 2](replay/levels/level-2.md)
   * [Level 3](replay/levels/level-3.md)

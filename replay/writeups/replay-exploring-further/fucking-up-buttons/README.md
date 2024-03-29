@@ -11,8 +11,8 @@ Within REplay existed many different Graphical User Interface Widgets (GUI widge
 
 In order to fuck up the buttons, we want to invert the functionality- lets say they click the aimbot button and it actually goes to ESP- or maybe we can mess with some of the text and inject our own sequences into it! All of this can be done with a simple binary patch. For this example, we are going to be using Level 1 which can be downloaded from the page linked below.
 
-{% content-ref url="../../../levels/level-1-3-download.md" %}
-[level-1-3-download.md](../../../levels/level-1-3-download.md)
+{% content-ref url="../../../levels/level-1-3-download/" %}
+[level-1-3-download](../../../levels/level-1-3-download/)
 {% endcontent-ref %}
 
 ### Important note
