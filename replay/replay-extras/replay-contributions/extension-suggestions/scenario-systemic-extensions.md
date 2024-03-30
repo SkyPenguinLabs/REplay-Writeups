@@ -14,4 +14,3 @@ Below is the base for REplay-Linux
 * Subject          - Reverse Engineering
 * Mode              - Usermode (UM)
 * Third party?  - Yes/No ( depends on the level design )
-* &#x20;         &#x20;

@@ -1,3 +1,8 @@
+---
+cover: ../../../../.gitbook/assets/image.avif
+coverY: 0
+---
+
 # Extension Suggestions
 
 Another huge thing is suggesting an extension of a particular part of the playground. For example, lets say you played the networking and web section,  then did the sub-section [binary-auditing-6.4.0](../../../writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/binary-auditing-6.4.0/ "mention") and thought that the binary auditing portion of the CTF could be extended. Please let me know!

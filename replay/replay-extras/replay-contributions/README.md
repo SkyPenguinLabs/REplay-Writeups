@@ -10,6 +10,10 @@ Since REplay is a effort to educate people on real world reverse engineering, le
 {% hint style="info" %}
 Note: No money or profit is gained from REplay. This project is purely for the community, was designed to educate and was made from love by Haxxer ^\_^! \
 \
-If you want to contribute- _<mark style="color:yellow;">**YOU WILL NOT BE PAID**</mark>_
+If you want to contribute- _<mark style="color:yellow;">**YOU WILL NOT BE PAID**</mark>_\
+\
+_<mark style="color:yellow;">**However, for possibilities of what can be received for reporting issues, check out -**</mark>_ [what-happens-if-i-report](finding-issues/what-happens-if-i-report/ "mention")
 {% endhint %}
+
+
 
