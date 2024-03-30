@@ -230,6 +230,7 @@
   * [Cool Shit](replay/replay-extras/cool-shit/README.md)
     * [Artwork](replay/replay-extras/cool-shit/artwork/README.md)
       * [Advertisement](replay/replay-extras/cool-shit/artwork/advertisement.md)
+      * [Snow White Penguin](replay/replay-extras/cool-shit/artwork/snow-white-penguin.md)
     * [Quotes](replay/replay-extras/cool-shit/quotes/README.md)
       * [The World Is Yours](replay/replay-extras/cool-shit/quotes/the-world-is-yours.md)
 * [Finished!](replay/finished.md)

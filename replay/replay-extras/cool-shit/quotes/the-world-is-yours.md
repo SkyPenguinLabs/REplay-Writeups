@@ -1,4 +1,11 @@
+---
+cover: ../../../../.gitbook/assets/image.avif
+coverY: 0
+---
+
 # The World Is Yours
+
+<figure><img src="../../../../.gitbook/assets/TheWorldIsYours.png" alt=""><figcaption></figcaption></figure>
 
 Throughout this documentation, you may have seen the penguin with the phrase
 
