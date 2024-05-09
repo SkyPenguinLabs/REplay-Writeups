@@ -133,6 +133,8 @@
       * [Analyzing Binding & Server Routines](replay/writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/analyzing-binding-and-server-routines/README.md)
         * [Answer Page](replay/writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/analyzing-binding-and-server-routines/answer-page.md)
       * [Analyzing JS To Find Web Vulnerabilities](replay/writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/analyzing-js-to-find-web-vulnerabilities/README.md)
+        * [Code Auditing](replay/writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/analyzing-js-to-find-web-vulnerabilities/code-auditing/README.md)
+          * [Analysts & RE](replay/writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/analyzing-js-to-find-web-vulnerabilities/code-auditing/analysts-and-re.md)
         * [Answer Page](replay/writeups/level-2-all-walkthroughs/section-6.0-networking-and-web/analyzing-js-to-find-web-vulnerabilities/answer-page.md)
     * [Section 7.0 (Exploit Development)](replay/writeups/level-2-all-walkthroughs/section-7.0-exploit-development/README.md)
       * [Userland R/W To Set Login Status](replay/writeups/level-2-all-walkthroughs/section-7.0-exploit-development/userland-r-w-to-set-login-status.md)
